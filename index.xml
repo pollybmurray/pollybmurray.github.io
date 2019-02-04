@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Polly Murray on Polly Murray</title>
-    <link>https://pollymurray.github.io/</link>
+    <link>https://pollybmurray.github.io/</link>
     <description>Recent content in Polly Murray on Polly Murray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Interactive visualizations for multiobjective optimization problems</title>
-      <link>https://pollymurray.github.io/talk/rmacc-2018/</link>
+      <link>https://pollybmurray.github.io/talk/rmacc-2018/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://pollymurray.github.io/talk/rmacc-2018/</guid>
+      <guid>https://pollybmurray.github.io/talk/rmacc-2018/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

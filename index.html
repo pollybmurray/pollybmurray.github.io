@@ -199,7 +199,6 @@
 	</div>
 </section>
 
-<!--
 
 <section id="photography" class="home-section">
 	<div class="container">
@@ -213,15 +212,44 @@
 
 			</div>
 			<div class="col-xs-12 col-md-8">
+
 				<p>Selected photos:</p>
 
+				<div class="row">
+
+					<div class="column">
+						<img src="https://pollybmurray.github.io/photography/photos/bridge.jpg" alt="Forth Bridge" style="width:100%" onclick="myFunction(this);">
+					</div>
+
+					<div class="column">
+						<img src="https://pollybmurray.github.io/photography/photos/flatirons.jpg" alt="Flatirons" style="width:100%" onclick="myFunction(this);">
+					</div>
+
+					<div class="column">
+						<img src="https://pollybmurray.github.io/photography/photos/nz_alps.jpg" alt="New Zealand Mountains" style="width:100%" onclick="myFunction(this);">
+					</div>
+
+					<div class="column">
+						<img src="https://pollybmurray.github.io/photography/photos/river.JPG" alt="Arkansas River, Buena Vista, Colorado" style="width:100%" onclick="myFunction(this);">
+					</div>
+
+				</div>
 
 			</div>
 
 		</div>
 
 	</div>
-</section> -->
+	<script>
+	function myFunction(imgs) {
+		var expandImg = document.getElementById("expandedImg");
+		var imgText = document.getElementById("imgtext");
+		expandImg.src = imgs.src;
+		// imgText.innerHTML = imgs.alt;
+		expandImg.parentElement.style.display = "block";
+	}
+	</script>
+</section>
 
 
 

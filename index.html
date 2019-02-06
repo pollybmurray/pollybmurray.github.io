@@ -214,7 +214,7 @@
 
 				<div class="row isotope projects-container js-layout-row " style="position: relative; height: 737.282px;">
 
-					<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Deep-Learning" style="position: absolute; left: 0px; top: 0px;">
+					<div class="col-12 col-md-6 col-lg-4" style="position: absolute; left: 0px; top: 0px;">
 
 						<div class="card">
 							<img src="https://pollybmurray.github.io/photography/photos/bridge.JPG" alt="" class="img-responsive" onclick="myFunction(this)">
@@ -222,7 +222,7 @@
 
 					</div>
 
-					<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Demo" style="position: absolute; left: 0px; top: 0px;">
+					<div class="col-12 col-md-6 col-lg-4" style="position: absolute; left: 0px; top: 0px;">
 
 						<div class="card">
 							<img src="https://pollybmurray.github.io/photography/photos/nz_alps.jpg" alt="" class="img-responsive" onclick="myFunction(this)">
@@ -230,7 +230,7 @@
 
 					</div>
 
-					<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Demo" style="position: absolute; left: 0px; top: 390px;">
+					<div class="col-12 col-md-6 col-lg-4" style="position: absolute; left: 0px; top: 390px;">
 
 						<div class="card">
 							<img src="https://pollybmurray.github.io/photography/photos/flatirons.jpg" alt="" class="img-responsive" onclick="myFunction(this)">
@@ -238,7 +238,7 @@
 
 					</div>
 
-					<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Demo" style="position: absolute; left: 0px; top: 390px;">
+					<div class="col-12 col-md-6 col-lg-4" style="position: absolute; left: 0px; top: 390px;">
 
 						<div class="card">
 							<img src="https://pollybmurray.github.io/photography/photos/river.JPG" alt="" class="img-responsive" onclick="myFunction(this)">
@@ -246,11 +246,23 @@
 
 					</div>
 
-					<div class="container">
-					  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-					  <img id="expandedImg" style="width:100%">
-					  <div id="imgtext"></div>
+					<div class="col-12 col-md-6 col-lg-4" style="position: absolute; left: 0px; top: 390px;">
+
+						<div class="card">
+							<img src="https://pollybmurray.github.io/photography/photos/milky_way.jpg" alt="" class="img-responsive" onclick="myFunction(this)">
+						</div>
+
 					</div>
+
+					<div class="col-12 col-md-6 col-lg-4" style="position: absolute; left: 0px; top: 390px;">
+
+						<div class="card">
+							<img src="https://pollybmurray.github.io/photography/photos/fisherman.jpg" alt="" class="img-responsive" onclick="myFunction(this)">
+						</div>
+
+					</div>
+
+
 
 				</div>
 			</div>
@@ -258,18 +270,20 @@
 	</div>
 
 </div>
-
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
 </div>
 
-	</div>
-	<script>
-	function myFunction(imgs) {
-		var expandImg = document.getElementById("expandedImg");
-		expandImg.src = imgs.src;
-		// imgText.innerHTML = imgs.alt;
-		expandImg.parentElement.style.display = "block";
-	}
-	</script>
+<script>
+function myFunction(imgs) {
+	var expandImg = document.getElementById("expandedImg");
+	expandImg.src = imgs.src;
+	// imgText.innerHTML = imgs.alt;
+	expandImg.parentElement.style.display = "block";
+}
+</script>
 </section>
 
 
